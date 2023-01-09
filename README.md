@@ -2,6 +2,8 @@
 ## by RandomBlocks Lab
 ### https://codeobfuscator.net/
 
+CodeMorpher obfuscator is a C/C++ source-code obfuscation tool.
+
 ### Advantages of using CodeMorpher:
 CodeMorpher is a powerful tool that can help you to protect your code from prying eyes, ensuring that your intellectual property remains secure. Whether you're working on a commercial software product or an in-house application, our code obfuscator can help you to keep your code safe and secure.
 
@@ -34,6 +36,10 @@ Use any compiler as you use for your projects. Platform & compiler independent -
 -Instructions substitution
 -AI-controlled generation
 
+## Future Features:
+- Polymorphic VM and bytecode
+- More transformation passes
+
 * CodeMorpher is cross-platform product and can be installed and used on Windows, MacOS or Linux OS
 * CodeMorpher uses command line interface. It's easy to embed it into the build process of your project
 * CodeMorpher is higly customizable with manual options changing via config file
@@ -46,3 +52,9 @@ Use any compiler as you use for your projects. Platform & compiler independent -
 
   Example:
 >  ./codemorpher -i "input_project" -o "obfuscated_project" -s 100010200202002 -c "msvc_win.cfg"
+
+## CLI options:
+- -i "xxx": Path to project
+- -o "xxx": path were to save obfuscated project
+- -s xxxx: seed
+- -c "xxx": config file with options set
